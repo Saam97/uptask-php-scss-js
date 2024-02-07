@@ -11,6 +11,9 @@
 
     .principal{//para que la barra tome el fondo lateralmente
         flex: 1;
+
+        //la parte de la derecha hace scroll, y la del menu se queda fija
+        overflow: scroll;
     }
 
     .contenido{
@@ -34,6 +37,13 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: 1.4rem;
+        }
+    }
+
+    .enlace{
+        color: v.$indigo;
+        &:hover{
+            color: darken(v.$indigo, 20%);
         }
     }
 }

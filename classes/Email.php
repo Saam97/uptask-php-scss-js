@@ -22,14 +22,14 @@ class Email{
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = '97021720023s@gmail.com';//quien envia el email
-        $mail->Password = 'wiuvbxkjwretwkvl'; //clave de aplicacion
+        $mail->Username = 'saam199702@gmail.com';//quien envia el email
+        $mail->Password = 'awefpschrxtcgadd'; //clave de aplicacion
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
-
+        
 
         //Configurar el Contenido del email
-        $mail->setFrom('97021720023s@gmail.com');//quien envia el email
+        $mail->setFrom('saam199702@gmail.com');//quien envia el email
         $mail->addAddress( $this->email, $this->nombre);//correo y nombre de usuario a quien enviamos
         $mail->Subject = 'Confirma tu cuenta Uptask';//encabezado del gmail
 
@@ -63,14 +63,14 @@ class Email{
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = '97021720023s@gmail.com';//quien envia el email
-        $mail->Password = 'wiuvbxkjwretwkvl'; //clave de aplicacion
+        $mail->Username = 'saam199702@gmail.com';//quien envia el email
+        $mail->Password = 'awefpschrxtcgadd'; //clave de aplicacion
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
 
         //Configurar el Contenido del email
-        $mail->setFrom('97021720023s@gmail.com');//quien envia el email
+        $mail->setFrom('saam199702@gmail.com');//quien envia el email
         $mail->addAddress( $this->email, $this->nombre);//de que email va a llegar el correo
         $mail->Subject = 'Reestablece tu Password';//encabezado del gmail
 
